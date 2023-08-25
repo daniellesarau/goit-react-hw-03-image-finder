@@ -1,5 +1,10 @@
 import React from 'react';
+import css from './ImageGalleryItem.module.css';
 
 export default function ImageGalleryItem() {
-  return <div>ImageGalleryItem</div>;
+  return (
+    <li className={css.gallery_item}>
+      <img className={css.image} src="" alt="" />
+    </li>
+  );
 }
