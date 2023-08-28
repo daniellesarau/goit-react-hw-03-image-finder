@@ -7,6 +7,7 @@ import Modal from 'components/Modal/Modal';
 import ImageGallery from 'components/ImageGallery/ImageGallery';
 import Loader from 'components/Loader/Loader';
 import Button from 'components/Button/Button';
+import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
 
 export const App = () => {
   const [images, setImages] = useState([]);
