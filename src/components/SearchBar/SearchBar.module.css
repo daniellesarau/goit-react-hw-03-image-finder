@@ -1,10 +1,24 @@
 .searchbar {
   display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 64px;
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(71, 113, 139);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px inset,
+    rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+.form {
+  display: flex;
+  margin: 30px 0px;
   align-items: center;
   width: 100%;
   max-width: 600px;
-  background-color: #fff;
-  border-radius: 3px;
+  background-color: aliceblue;
+  border-radius: 18px;
   overflow: hidden;
 }
 
@@ -13,7 +27,7 @@
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
+
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
